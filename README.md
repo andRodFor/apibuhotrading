@@ -54,7 +54,6 @@ Content-Type: Application/JSON
 
 **Request format**
 
-```json
 {
   "symbol": "XAUUSD",
   "model": "pivot01d180d",
