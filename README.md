@@ -48,10 +48,10 @@ Available models, symbols & test > 👉 https://buhotrading.com
 ## 🔌 API Overview
 
 **Endpoint**
-
+```
 POST https://buhotrading.com/api/v1/signal?key=YOUR_API_KEY
 Content-Type: Application/JSON
-
+```
 **Request format**
 ```json
 {
