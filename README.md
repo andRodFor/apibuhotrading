@@ -53,7 +53,7 @@ POST https://buhotrading.com/api/v1/signal?key=YOUR_API_KEY
 Content-Type: Application/JSON
 
 **Request format**
-
+```json
 {
   "symbol": "XAUUSD",
   "model": "pivot01d180d",
@@ -62,7 +62,7 @@ Content-Type: Application/JSON
     ...
   ]
 }
-
+```
 📈 Example Response
 ```json
 {
@@ -78,8 +78,11 @@ Content-Type: Application/JSON
   "errorCode": 0,
   "errorDetail": ""
 }
+```
 
+```
 ⚠️ Error Codes
+
 Code	Description
 0	No error
 1	Missing or invalid API key
@@ -92,7 +95,7 @@ Code	Description
 8	Prediction error or no AI result
 9	Rate limit exceeded
 99	Internal server error
-
+```
 🔑 API Access
 
 API keys can be requested at:
