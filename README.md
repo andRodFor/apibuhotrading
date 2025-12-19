@@ -52,13 +52,18 @@ Available models, symbols & test > 👉 https://buhotrading.com
 POST https://buhotrading.com/api/v1/signal?key=YOUR_API_KEY
 Content-Type: Application/JSON
 ```
-**Request format**
+**Example Request format**
 ```json
 {
   "symbol": "XAUUSD",
   "model": "pivot01d180d",
+   // [timestamp, open, high, low, close, volume]
   "candles": [
-    [timestamp, open, high, low, close, volume],
+    [1763067600,4172.08,4211.38,4032.29,4085.1,268900],
+     [1763326800,4085.42,4106.71,4006.96,4045.52,239375],
+     [1763413200,4044.54,4082.31,3998.08,4067.3,241116],
+     [1763499600,4067.22,4132.8,4055.67,4077.76,239567],
+     [1763586000,4078.05,4110.27,4038.97,4077.2,259346],
     ...
   ]
 }
